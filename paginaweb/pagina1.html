@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Top jugadores</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Categorías:</span> 
+      <button class="w3-button w3-black">Infantil</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Cadete</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Juvenil</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Senior</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="imagenes/venoct.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Samuel Cegarra Vargas</b></p>
+        <p>Es un Yo-kai de piel blanca, ojos amarillos y pelo azul oscuro que cubre gran parte de su cara y una coleta.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="imagenes/kyubi.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Deividas Kilpys</b></p>
+        <p>Es un zorro de nueve colas con piel palido y pelaje amarillento con tonos morados.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="imagenes/demoniorco.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Miguel Angel Díaz García </b></p>
+        <p>Se distingue de los otros oni por el color negro de su piel y el par de cuernos grandes y retorcidos que tiene en la cabeza.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="imagenes/sacoco.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Gisella Torres</b></p>
+        <p></p>Sacoco tiene una gran melena color marrón claro o beige, manos parecidas a las de un humano, un cuerpo de baja estatura.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="imagenes/kabukio.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Roberto Torres</b></p>
+        <p>Es un cyborg con ropa kabuki con marcas verdes en su cara, tiene un pelo bicolor, blanco y rojo.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="imagenes/nyan.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Benjamin Calleja</b></p>
+        <p> Tiene una armadura azulada, un cinturón anaranjado, un símbolo del valor, una media luna, una espada antigua, un cascabel naranja y dos colas doradas.</p>
+      </div>
+    </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+    <footer class="w3-container w3-light-grey w3-padding-32 w3-margin-bottom">
+   <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="index.html">página principal</a></button>
+   <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="pagina2.html">página 2</a></button>
+   <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="pagina3.html">página 3</a></button>
+
+   </footer>
+   
+  
+
+
+</body>
+</html>
