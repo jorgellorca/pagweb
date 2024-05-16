@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Volver</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">jefes</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">mi favorito</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16"></div>
+    <div class="w3-center w3-padding-16">Los mejores jefes</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="imagenes/babamandra.jpg" alt="Sandwich" style="width:100%">
+      <h3>Babamandra</h3>
+      <p>Uno de los primeros jefes, que nos introduce la dinámica de primero ir a por los ojos y luego a por el jefe.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/termascino.jpg" alt="Steak" style="width:100%">
+      <h3>Termascino</h3>
+      <p>Un jefe introducido para terminar de entender la dinámica de tener que eliminar obstáculos antes de poder combatir con el jefe, en este caso sus cubos.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/caldewok.jpg" alt="Cherries" style="width:100%">
+      <h3>Caldewok</h3>
+      <p>Un jefe complicado de acceder a su pelea, ya que es parte del final secreto del segundo juego.</p>
+      <p>What else?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/lady.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Lady Desdicha</h3>
+      <p>Un alma en pena por un crimen que no cometio, jefa final del segundo juego y un muy nostalgico combate.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="imagenes/cazademonios.jpg" alt="Popsicle" style="width:100%">
+      <h3>Devoramonios</h3>
+      <p>Un muy peligroso jefe capaz de comerse a otros jefes y absorber su poder.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/bergantín.jpg" alt="Salmon" style="width:100%">
+      <h3>Bergantín</h3>
+      <p>Un combate, en el que tendremos que luchar contra bergantín, y paralelamente contra sus peces.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/flautista.jpg" alt="Sandwich" style="width:100%">
+      <h3>Marmelin</h3>
+      <p>Un muy duro combate, ya que Marmelin aturdirá e hipnotizará a tu equipo.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/demoniorco.jpg" alt="Croissant" style="width:100%">
+      <h3>Demoniorco</h3>
+      <p>El mas poderoso de los tres Oni, y un verdadero desafio dentro del juego.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Mi jefe favorito</h3><br>
+    <img src="imagenes/kabukio.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>KABUKIO</b></h4>
+      <h6><i>Protagonista del teatro Kabuki</i></h6>
+      <p>Esta batalla solo será posible acceder despues de haber terminado el juego, y no será una tarea sencilla, pues tendremos que hacer numerosas tareas y viajes hasta llegar a el, y cuando llega la hora del combate, es un muy duro adversario, pues este personaje combina potentes ataques, estilo y elegancia a la hora de esquivar y un teatro lleno de público dispuesto a ayudarle si está en problemas...</p>
+    </div>
+  </div>
+  <hr>
+   <footer class="w3-container w3-white w3-padding-32 w3-margin-top">
+   <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="index.html">página principal</a></button>
+   <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="pagina1.html">página 1</a></button>
+   <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="pagina2.html">página 2</a></button>
+
+   </footer>
+ 
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
